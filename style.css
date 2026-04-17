@@ -215,13 +215,6 @@ h1 {
     gap: 25px;
 }
 
-@media (max-width:800px) {
-    .bottom-left-footer {
-        gap: 10px;
-        padding: 0;
-    }
-}
-
 a img {
     width: 30px;
     height: auto;
@@ -273,16 +266,22 @@ a img {
         border: none;
         border-top: 2px solid #fff;
         opacity: 0.8;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     a img {
         width: 30px;
         height: auto;
     }
     .btn-suggestion {
-        font-size: 12px;
+        font-size: 8px;
     }
     .checkmark {
-        font-size: 12px;
+        font-size: 8px;
+    }
+    .bottom-left-footer p {
+        font-size: 8px;
     }
 }
 
