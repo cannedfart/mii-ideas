@@ -220,7 +220,6 @@ a img {
     height: auto;
     border-radius: 5px;
     padding: 5px;
-    border: 2px solid #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: ease 0.2s;
     filter: brightness(0.7);
