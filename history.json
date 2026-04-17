@@ -1,0 +1,57 @@
+[
+  {
+    "person": "Napoleon",
+    "id": "1",
+    "image": "https://cdn.britannica.com/94/115194-050-DAC0074C/Emperor-Napoleon-in-His-Study-canvas-Tuileries-1812.jpg"
+  },
+  {
+    "person": "William Shakespeare",
+    "id": "2",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg"
+  },
+  {
+    "person": "Abraham Lincoln",
+    "id": "3",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg"
+  },
+  {
+    "person": "Aristotle",
+    "id": "4",
+    "image": "https://classicalliberalarts.com/wp-content/uploads/aristotle-bw-2.png"
+  },
+  {
+    "person": "Alexander the Great",
+    "id": "5",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Alexander_the_Great_Ny_Carlsberg_Glyptotek_IN574_n1.jpg/250px-Alexander_the_Great_Ny_Carlsberg_Glyptotek_IN574_n1.jpg"
+  },
+  {
+    "person": "Thomas Jefferson",
+    "id": "6",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Official_Presidential_portrait_of_Thomas_Jefferson_%28by_Rembrandt_Peale%2C_1800%29.jpg/1280px-Official_Presidential_portrait_of_Thomas_Jefferson_%28by_Rembrandt_Peale%2C_1800%29.jpg"
+  },
+  {
+    "person": "Albert Einstein",
+    "id": "7",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/albert-einstein-sticks-out-his-tongue-when-asked-by-news-photo-1681316749.jpg"
+  },
+  {
+    "person": "Isaac Newton",
+    "id": "8",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg"
+  },
+  {
+    "person": "Christopher Columbus",
+    "id": "9",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg"
+  },
+  {
+    "person": "Plato",
+    "id": "10",
+    "image": "https://cdn.britannica.com/88/149188-050-DC34842F/Plato-portrait-bust-original-Capitoline-Museums-Rome.jpg"
+  },
+  {
+    "person": "George W. Bush",
+    "id": "11",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/George-W-Bush_%28cropped_2%29.jpeg/250px-George-W-Bush_%28cropped_2%29.jpeg"
+  }
+]
