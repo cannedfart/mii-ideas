@@ -190,6 +190,15 @@ h1 {
         margin-bottom: 10px;
     }
 
+#select-theme {
+    padding: 2px;
+    border: #ccc 2px solid;
+    background-image: linear-gradient(to top, #fff, #eee);
+    border-radius: 5px;
+    font-family: WiiU;
+    color: #828282;
+}
+
     hr {
         border: none;
         height: 2px;
@@ -238,14 +247,16 @@ a img {
 
 .btn-suggestion {
     width: fit-content;
-    height: auto;
-    border-radius: 15px;
+    height: 40px;
+    border-radius: 10px;
     padding: 0 5px 0 5px;
     background-image: linear-gradient(to top, #fff, #eee);
     border: 2px solid #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: ease 0.2s;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
 }
 
     .btn-suggestion:hover {
