@@ -1,3 +1,7 @@
+:root {
+    --primary-bg-img: url("https://mii-ideas.neocities.org/bg-wii-u.jpg");
+}
+
 @font-face {
   font-family: "WiiU";
   src: url("FOT-RodinNTLG Pro DB.otf") format('opentype');
@@ -72,7 +76,9 @@ h1 {
         }
 
         body {
-            background-image: url('bg.jpg');
+            background-image: var(--primary-bg-img);
+            background-position: calc(20% + var(--mouse-x)) calc(20% + var(--mouse-y));
+            background-size: 103vw;
         }
     }
 
@@ -82,7 +88,7 @@ h1 {
         }
 
         body {
-            background-image: url('bgphone.jpg');
+            background-image: var(--primary-bg-img);
             padding-bottom: 500px;
         }
     }
@@ -161,16 +167,18 @@ h1 {
         width: 80%;
     }
 
-    .btn {
-        color: #828282;
-        border: white 2px solid;
-        background: linear-gradient(to bottom, #fff 80%, #eee 95%);
-        width: 100%;
-        border-radius: 10px;
-        box-shadow: 0 0 7px #eee inset;
-        transition: ease 0.1s;
-        cursor: pointer;
-    }
+.btn {
+    color: #828282;
+    border: white 2px solid;
+    background: linear-gradient(to bottom, #fff 80%, #eee 95%);
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #eee inset, 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: ease 0.1s;
+    cursor: pointer;
+    font-family: WiiU;
+    text-decoration: none;
+}
 
     .btn:hover {
         transform: scale(1.03);
@@ -179,6 +187,35 @@ h1 {
     .btn:active {
         transform: scale(0.95);
     }
+
+.btn-link {
+    color: #828282;
+    border: white 2px solid;
+    height: 100%;
+    background: linear-gradient(to bottom, #fff 80%, #eee 95%);
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #eee inset, 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: ease 0.1s;
+    cursor: pointer;
+    font-family: WiiU;
+    text-decoration: none;
+}
+
+    .btn-link:hover {
+        transform: scale(1.03);
+    }
+
+    .btn-link:active {
+        transform: scale(0.95);
+    }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
 
     #select {
         padding: 2px;
@@ -224,6 +261,13 @@ h1 {
     gap: 25px;
 }
 
+@media (max-width:800px) {
+    .bottom-left-footer {
+        padding-bottom: 500px;
+        bottom: 20px;
+    }
+}
+
 a img {
     width: 30px;
     height: auto;
@@ -257,6 +301,7 @@ a img {
     cursor: pointer;
     display: inline-flex;
     align-items: center;
+    font-family: WiiU;
 }
 
     .btn-suggestion:hover {
@@ -269,8 +314,8 @@ a img {
 
 @media (max-width:800px) {
     .bottom-left-footer {
-        gap: 10px;
-        padding: 0;
+        gap: 25px;
+        padding-bottom: 40px;
         border-radius: 0;
         width: 100%;
         border: none;
@@ -279,6 +324,7 @@ a img {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        bottom: 0;
     }
     a img {
         width: 30px;
