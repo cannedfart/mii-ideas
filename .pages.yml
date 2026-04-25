@@ -3,27 +3,61 @@ media:
   output: /media
 
 content:
+  - name: celebrities
+    label: Celebrities
+    type: file
+    path: json/celebrity.json
+    fields:
+      - name: items
+        label: Celebrities
+        type: list
+        fields:
+          - { name: first_name, label: First Name, type: string }
+          - { name: last_name, label: Last Name, type: string }
+          - { name: id, label: ID, type: string }
+          - { name: image, label: Image, type: string }
+
+  - name: history
+    label: History
+    type: file
+    path: json/history.json
+    fields:
+      - name: items
+        label: Historical Figures
+        type: list
+        fields:
+          - { name: first_name, label: First Name, type: string }
+          - { name: last_name, label: Last Name, type: string }
+          - { name: id, label: ID, type: string }
+          - { name: image, label: Image, type: string }
+
   - name: tv
-    label: TV entries
+    label: TV Shows
     type: file
     path: json/tv.json
     fields:
       - name: items
-        label: TV Entries
+        label: TV Characters
         type: list
         fields:
-          - name: first_name
-            label: First Name
-            type: string
-          - name: last_name
-            label: Last Name
-            type: string
-          - name: id
-            label: ID
-            type: string
-          - name: image
-            label: Image
-            type: string
+          - { name: first_name, label: First Name, type: string }
+          - { name: last_name, label: Last Name, type: string }
+          - { name: id, label: ID, type: string }
+          - { name: image, label: Image, type: string }
+
+  - name: videogames
+    label: Video Games
+    type: file
+    path: json/videogames.json
+    fields:
+      - name: items
+        label: Game Characters
+        type: list
+        fields:
+          - { name: first_name, label: First Name, type: string }
+          - { name: last_name, label: Last Name, type: string }
+          - { name: id, label: ID, type: string }
+          - { name: image, label: Image, type: string }
 
 actions:
   - name: deploy-site
