@@ -1,11 +1,30 @@
-media: media
+media:
+  input: src/media
+  output: /media
 content:
-  - name: pages
-    label: Pages
-    type: collection
-    path: docs
+  - name: tv
+    label: TV entries
+    type: file
+    path: src/json/tv.json
     fields:
-      - name: title
-        type: string
-      - name: body
-        type: rich-text
+      - name: tventries
+        label: TV Entries
+        type: list
+        fields:
+        - name: first_name
+          label: First Name
+          type: string
+        - name: last_name
+          label: Last Name
+          type: string
+        - name: id
+          label: ID
+          type: string
+        - name: image
+          label: Image
+          type: string
+          
+actions:
+  - name: deploy-site
+    label: Deploy site
+    workflow: pages-cms-action.yml
