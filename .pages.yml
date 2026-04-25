@@ -5,7 +5,7 @@ content:
   - name: tv
     label: TV entries
     type: file
-    path: src/json/tv.json
+    path: json/tv.json
     fields:
       - name: tventries
         label: TV Entries
