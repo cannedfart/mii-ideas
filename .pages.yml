@@ -1,29 +1,30 @@
 media:
   input: src/media
   output: /media
+
 content:
   - name: tv
     label: TV entries
     type: file
     path: json/tv.json
     fields:
-      - name: tventries
+      - name: items
         label: TV Entries
         type: list
         fields:
-        - name: first_name
-          label: First Name
-          type: string
-        - name: last_name
-          label: Last Name
-          type: string
-        - name: id
-          label: ID
-          type: string
-        - name: image
-          label: Image
-          type: string
-          
+          - name: first_name
+            label: First Name
+            type: string
+          - name: last_name
+            label: Last Name
+            type: string
+          - name: id
+            label: ID
+            type: string
+          - name: image
+            label: Image
+            type: string
+
 actions:
   - name: deploy-site
     label: Deploy site
