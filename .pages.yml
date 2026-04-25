@@ -3,61 +3,50 @@ media:
   output: /media
 
 content:
+
   - name: celebrities
     label: Celebrities
-    type: file
-    path: json/celebrity.json
+    type: collection
+    folder: json/celebrity
+    create: true
     fields:
-      - name: items
-        label: Celebrities
-        type: list
-        fields:
-          - { name: first_name, label: First Name, type: string }
-          - { name: last_name, label: Last Name, type: string }
-          - { name: id, label: ID, type: string }
-          - { name: image, label: Image, type: string }
+      - { name: first_name, label: First Name, type: string }
+      - { name: last_name, label: Last Name, type: string }
+      - { name: id, label: ID, type: string }
+      - { name: image, label: Image, type: string }
 
   - name: history
     label: History
-    type: file
-    path: json/history.json
+    type: collection
+    folder: json/history
+    create: true
     fields:
-      - name: items
-        label: Historical Figures
-        type: list
-        fields:
-          - { name: first_name, label: First Name, type: string }
-          - { name: last_name, label: Last Name, type: string }
-          - { name: id, label: ID, type: string }
-          - { name: image, label: Image, type: string }
+      - { name: first_name, label: First Name, type: string }
+      - { name: last_name, label: Last Name, type: string }
+      - { name: id, label: ID, type: string }
+      - { name: image, label: Image, type: string }
 
   - name: tv
     label: TV Shows
-    type: file
-    path: json/tv.json
+    type: collection
+    folder: json/tv
+    create: true
     fields:
-      - name: items
-        label: TV Characters
-        type: list
-        fields:
-          - { name: first_name, label: First Name, type: string }
-          - { name: last_name, label: Last Name, type: string }
-          - { name: id, label: ID, type: string }
-          - { name: image, label: Image, type: string }
+      - { name: first_name, label: First Name, type: string }
+      - { name: last_name, label: Last Name, type: string }
+      - { name: id, label: ID, type: string }
+      - { name: image, label: Image, type: string }
 
   - name: videogames
     label: Video Games
-    type: file
-    path: json/videogames.json
+    type: collection
+    folder: json/videogames
+    create: true
     fields:
-      - name: items
-        label: Game Characters
-        type: list
-        fields:
-          - { name: first_name, label: First Name, type: string }
-          - { name: last_name, label: Last Name, type: string }
-          - { name: id, label: ID, type: string }
-          - { name: image, label: Image, type: string }
+      - { name: first_name, label: First Name, type: string }
+      - { name: last_name, label: Last Name, type: string }
+      - { name: id, label: ID, type: string }
+      - { name: image, label: Image, type: string }
 
 actions:
   - name: deploy-site
