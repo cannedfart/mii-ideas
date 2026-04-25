@@ -1,0 +1,65 @@
+[
+  {
+    "first_name": "Napoleon",
+    "id": "1",
+    "image": "https://cdn.britannica.com/94/115194-050-DAC0074C/Emperor-Napoleon-in-His-Study-canvas-Tuileries-1812.jpg"
+  },
+  {
+    "first_name": "William",
+    "last_name": "Shakespeare",
+    "id": "2",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg"
+  },
+  {
+    "first_name": "Abraham",
+    "last_name": "Lincoln",
+    "id": "3",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg"
+  },
+  {
+    "first_name": "Aristotle",
+    "id": "4",
+    "image": "https://classicalliberalarts.com/wp-content/uploads/aristotle-bw-2.png"
+  },
+  {
+    "first_name": "Alexander",
+    "last_name": "the Great",
+    "id": "5",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Alexander_the_Great_Ny_Carlsberg_Glyptotek_IN574_n1.jpg/250px-Alexander_the_Great_Ny_Carlsberg_Glyptotek_IN574_n1.jpg"
+  },
+  {
+    "first_name": "Thomas",
+    "last_name": "Jefferson",
+    "id": "6",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Official_Presidential_portrait_of_Thomas_Jefferson_%28by_Rembrandt_Peale%2C_1800%29.jpg/1280px-Official_Presidential_portrait_of_Thomas_Jefferson_%28by_Rembrandt_Peale%2C_1800%29.jpg"
+  },
+  {
+    "first_name": "Albert",
+    "last_name": "Einstein",
+    "id": "7",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/albert-einstein-sticks-out-his-tongue-when-asked-by-news-photo-1681316749.jpg"
+  },
+  {
+    "first_name": "Isaac",
+    "last_name": "Newton",
+    "id": "8",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg"
+  },
+  {
+    "first_name": "Christopher",
+    "last_name": "Columbus",
+    "id": "9",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg"
+  },
+  {
+    "first_name": "Plato",
+    "id": "10",
+    "image": "https://cdn.britannica.com/88/149188-050-DC34842F/Plato-portrait-bust-original-Capitoline-Museums-Rome.jpg"
+  },
+  {
+    "first_name": "George",
+    "last_name": "W. Bush",
+    "id": "11",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/George-W-Bush_%28cropped_2%29.jpeg/250px-George-W-Bush_%28cropped_2%29.jpeg"
+  }
+]

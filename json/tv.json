@@ -1,0 +1,104 @@
+[
+  {
+    "first_name": "Master",
+    "last_name": "Wu",
+    "id": "1",
+    "image": "https://static.wikia.nocookie.net/ninjago/images/2/2e/Wu_cover.png"
+  },
+  {
+    "first_name": "Lloyd",
+    "last_name": "Garmadon",
+    "id": "2",
+    "image": "https://static.wikia.nocookie.net/ninjago/images/f/fe/DraconusSuitLloydS4P1.png"
+  },
+  {
+    "first_name": "Kai",
+    "last_name": "",
+    "id": "3",
+    "image": "https://static.wikia.nocookie.net/ninjago/images/5/5d/DRS3Part2KaiIB.png"
+  },
+  {
+    "first_name": "Jay",
+    "last_name": "Walker",
+    "id": "4",
+    "image": "https://static.wikia.nocookie.net/ninjago/images/6/67/Jay_Rogue_IB.png"
+  },
+  {
+    "first_name": "Zane",
+    "last_name": "Julien",
+    "id": "5",
+    "image": "https://static.wikia.nocookie.net/ninjago/images/5/5e/DRS3Part2ZaneIB.png"
+  },
+  {
+    "first_name": "Walter",
+    "last_name": "White",
+    "id": "6",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/streams/2013/August/130808/6C8558749-130808-walter-white-tease.jpg"
+  },
+  {
+    "first_name": "Jesse",
+    "last_name": "Pinkman",
+    "id": "7",
+    "image": "https://m.media-amazon.com/images/M/MV5BNTU0ODdhNGItZWFhNC00YzdlLThmZjgtMWUyN2JmZjc4ODNiXkEyXkFqcGc@._V1_QL75_UY281_CR0,0,500,281_.jpg"
+  },
+  {
+    "first_name": "Saul",
+    "last_name": "Goodman",
+    "id": "8",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/34/Jimmy_McGill_BCS_S3.png"
+  },
+  {
+    "first_name": "Skyler",
+    "last_name": "White",
+    "id": "9",
+    "image": "https://static.wikia.nocookie.net/breakingbad/images/0/07/SkylerS5.jpg"
+  },
+  {
+    "first_name": "Hank",
+    "last_name": "Schrader",
+    "id": "10",
+    "image": "https://static.wikia.nocookie.net/breakingbad/images/5/57/Hank_2004.png"
+  },
+  {
+    "first_name": "Gus",
+    "last_name": "Fring",
+    "id": "11",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Gustavo_Fring_BCS_S3E10.png/250px-Gustavo_Fring_BCS_S3E10.png"
+  },
+  {
+    "first_name": "Mike",
+    "last_name": "Ehrmantraut",
+    "id": "12",
+    "image": "https://compote.slate.com/images/fb69a16d-7f35-4103-98c1-62d466196b9a.jpg"
+  },
+  {
+    "first_name": "Gumball",
+    "last_name": "Watterson",
+    "id": "13",
+    "image": "https://hanna-barberawiki.s3.us-east-va.io.cloud.ovh.us/thumb/9/9c/Gumball_Watterson.png/1200px-Gumball_Watterson.png"
+  },
+  {
+    "first_name": "Darwin",
+    "last_name": "Watterson",
+    "id": "14",
+    "image": "https://hanna-barberawiki.s3.us-east-va.io.cloud.ovh.us/thumb/8/8c/Darwin_Watterson.png/1200px-Darwin_Watterson.png"
+  },
+  {
+    "first_name": "Anais",
+    "last_name": "Watterson",
+    "id": "15",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/24752.jpg"
+  },
+  {
+    "first_name": "Nicole",
+    "last_name": "Watterson",
+    "id": "16",
+    "image": "https://www.sosyncd.com/wp-content/uploads/2022/08/4.png"
+  },
+  {
+    "first_name": "Richard",
+    "last_name": "Watterson",
+    "id": "17",
+    "image": "https://images.genius.com/68b216c84e4d0d72cee423cd073c950f.360x360x1.png"
+  }
+]
