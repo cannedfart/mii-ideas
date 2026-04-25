@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>JSON Editor</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .card { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+    input { display: block; margin: 5px 0; width: 300px; }
+  </style>
+</head>
+<body>
+
+<h2>Mii Ideas Editor</h2>
+
+<select id="fileSelect">
+  <option value="celebrity.json">Celebrities</option>
+  <option value="history.json">History</option>
+  <option value="tv.json">TV</option>
+  <option value="videogames.json">Video Games</option>
+</select>
+
+<button onclick="loadFile()">Load</button>
+<button onclick="saveFile()">Save</button>
+
+<div id="container"></div>
+
+<script>
+let data = [];
+let currentFile = "";
+
+async function loadFile() {
+  currentFile = document.getElementById("fileSelect").value;
+
+  const res = await fetch("./json/" + currentFile);
+  const json = await res.json();
+
+  data = json.items;
+  render();
+}
+
+function render() {
+  const container = document.getElementById("container");
+  container.innerHTML = "";
+
+  data.forEach((item, i) => {
+    const div = document.createElement("div");
+    div.className = "card";
+
+    div.innerHTML = `
+      <input value="${item.first_name}" onchange="data[${i}].first_name=this.value">
+      <input value="${item.last_name}" onchange="data[${i}].last_name=this.value">
+      <input value="${item.id}" onchange="data[${i}].id=this.value">
+      <input value="${item.image}" onchange="data[${i}].image=this.value">
+      <button onclick="removeItem(${i})">Delete</button>
+    `;
+
+    container.appendChild(div);
+  });
+}
+
+function addItem() {
+  data.push({
+    first_name: "",
+    last_name: "",
+    id: "",
+    image: ""
+  });
+  render();
+}
+
+function removeItem(i) {
+  data.splice(i, 1);
+  render();
+}
+
+async function saveFile() {
+  alert("Saving requires GitHub API (next step). For now, copy console output.");
+
+  console.log(JSON.stringify({ items: data }, null, 2));
+}
+</script>
+
+<button onclick="addItem()">Add New</button>
+
+</body>
+</html>
